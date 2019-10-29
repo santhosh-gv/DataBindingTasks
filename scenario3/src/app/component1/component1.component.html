@@ -1,0 +1,5 @@
+<p>Component 1 starts here</p>
+<h3>Enter text here</h3>
+<input (input)="entry = $event.target.value" />
+<app-component2 [parentData]="entry"></app-component2>
+<p>Component 1 ends here</p>

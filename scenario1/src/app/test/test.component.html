@@ -1,0 +1,4 @@
+<h2>Enter some text below</h2>
+        <input id="myInput" [value]="username" (input)="username = $event.target.value"> <br>
+        <button (click)="sendLog(username)" type="submit">Submit</button>
+
